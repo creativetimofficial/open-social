@@ -1,0 +1,39 @@
+Social Autopilot
+Copyright (c) 2026 Creative Tim. Licensed under the MIT License (see LICENSE).
+
+This project uses, but does not include, the following services and software.
+Each is governed by its own license or terms:
+
+- Creative Tim Social Studio (creative-tim.com), which holds your connected
+  channels and publishes posts, used under its terms with your own key.
+- The social networks you connect there (for example X and Bluesky), under
+  their own terms.
+- Hermes Agent (NousResearch/hermes-agent), MIT License, run as a separate
+  container image when RUNTIME=hermes.
+- Parallel Search MCP (search.parallel.ai), Exa (api.exa.ai) and CompanyFabric
+  (api.companyfabric.com): third-party services, used under their own terms
+  when you configure them.
+
+The shared UI includes components adapted from Vercel AI Elements (Apache-2.0)
+and shadcn/ui (MIT); see packages/ui/NOTICE, included below.
+
+npm dependencies and their licenses are listed in package.json and
+pnpm-lock.yaml.
+
+---
+
+packages/ui:
+
+@agent-starters/ui
+Copyright (c) 2026 Creative Tim. Licensed under the MIT License (see LICENSE).
+
+The chat components in src/elements/ are adapted from Vercel AI Elements
+(https://github.com/vercel/ai-elements), Copyright 2023 Vercel, Inc.,
+licensed under the Apache License, Version 2.0 (see LICENSE-AI-ELEMENTS).
+Each adapted file says at its top what was changed.
+
+The primitives in src/components/ are adapted from shadcn/ui
+(https://github.com/shadcn-ui/ui), MIT License, Copyright (c) 2023 shadcn.
+
+npm dependencies and their licenses are listed in package.json and
+pnpm-lock.yaml.
